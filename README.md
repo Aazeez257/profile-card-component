@@ -1,6 +1,6 @@
 ## Links
 
-live-site -
+live-site - https://abdul-profile-card-component.netlify.app/
 github - https://github.com/Aazeez257/profile-card-component/tree/main
 
 ## Built with
