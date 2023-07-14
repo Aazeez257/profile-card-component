@@ -1,7 +1,7 @@
 ## Links
 
 live-site -
-github -
+github - https://github.com/Aazeez257/profile-card-component/tree/main
 
 ## Built with
 
