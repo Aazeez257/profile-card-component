@@ -1,0 +1,90 @@
+*::after,
+*::before,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: rgb(25, 161, 173);
+  background-image: url("bg-pattern-top.svg");
+  background-image: url("bg-pattern-bottom.svg");
+}
+
+.container {
+  max-width: 40rem;
+  height: 40rem;
+
+  background-color: white;
+  margin: 15vh auto;
+  border-radius: 1.6rem;
+  display: grid;
+  grid-template-rows: 1.2fr 1.2fr 0.7fr;
+}
+.top-section {
+  background-image: url("bg-pattern-card.svg");
+  overflow: hidden;
+  border-radius: 1.6rem 1.6rem 0 0;
+}
+.profile-img img {
+  border-radius: 30rem;
+}
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  align-items: center;
+  margin-top: -5rem;
+}
+.profile-name,
+.stats {
+  font-size: 1.8rem;
+  color: #414346;
+  font-weight: 700;
+}
+.profile-name span {
+  font-weight: 400;
+  color: #98989c;
+  margin-left: 0.5rem;
+}
+.profile-location {
+  font-size: 1.6rem;
+  color: #98989c;
+}
+.bottom-section {
+  border-top: 2px solid #efefef;
+}
+
+.stats {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.followers span {
+  font-size: 1.5rem;
+  color: #98989c;
+  font-weight: 400;
+}
+.likes span {
+  font-size: 1.5rem;
+  color: #98989c;
+  font-weight: 400;
+}
+.photos span {
+  font-size: 1.5rem;
+  color: #98989c;
+  font-weight: 400;
+}
+
+/* Styles for the phone screen */
+@media (max-width: 24rem) {
+  .container {
+    margin: 15vh 2rem;
+  }
+}
